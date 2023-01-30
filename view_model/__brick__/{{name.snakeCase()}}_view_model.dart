@@ -2,7 +2,7 @@ import 'package:core_di/di.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-part '{{name.snakeCase()}}_view_model.freezed.dart';
+part '{{name.pascalCase()}}_view_model.freezed.dart';
 
 final {{name.camelCase()}}ViewModel = StateNotifierProvider.autoDispose<{{name.pascalCase()}}ViewModel, {{name.pascalCase()}}UiState>((ref) => inject());
 
