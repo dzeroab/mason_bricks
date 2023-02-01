@@ -14,7 +14,7 @@ class {{name.pascalCase()}}ViewModel extends StateNotifier<{{name.pascalCase()}}
 
 @freezed
 class {{name.pascalCase()}}UiState with _${{name.pascalCase()}}UiState {
-  const factory {{name.pascalCase()}}UiState() = _HomeUiState;
+  const factory {{name.pascalCase()}}UiState() = _{{name.pascalCase()}}UiState;
 
   factory {{name.pascalCase()}}UiState.initial() => const {{name.pascalCase()}}UiState();
 }
